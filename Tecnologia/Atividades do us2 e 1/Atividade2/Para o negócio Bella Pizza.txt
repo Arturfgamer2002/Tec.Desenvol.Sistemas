@@ -1,0 +1,49 @@
+Para o negócio Bella Pizza
+Parte 1 - Requisitos
+
+Liste 5 requisitos funcionais priorizados (use a tabela como guia)
+Especifique 3 requisitos não funcionais críticos para seu projeto
+Classifique cada RF com nível de complexidade (baixa/média/alta)
+
+Parte 2 - Histórias de Usuário
+
+Escreva 3 histórias de usuário com critérios de aceitação completos
+Identifique para cada história: persona envolvida e valor gerado
+
+Parte 3 - Prototipagem
+
+Esboce o wireframe da página principal (papel ou digital)
+Inclua anotações sobre interações importantes
+Pense na jornada do usuário a partir dessa tela 
+_________________________________________________________________________________________________________________________________________________
+
+Parte 2 – Histórias de Usuário
+
+História 1
+Persona: Cliente Cleiton recorrente
+História: Como cliente Cleiton, quero criar meu perfil, para que minhas informações de entrega fiquem salvas e o processo de pedido seja mais rápido.
+Critérios de Aceitação:
+Cliente Cleiton consegue criar conta com e-mail e senha.
+Cliente Cleiton pode editar endereço e telefone.
+Sistema envia e-mail de confirmação após cadastro.
+Valor gerado: Agilidade e conveniência para o cliente Cleiton, incentivando pedidos recorrentes.
+
+História 2
+Persona: Cliente novo Robson
+História: Como cliente Robson, quero ver o cardápio online com preços e descrições, para escolher minha pizza favorita antes de fazer o pedido.
+Critérios de Aceitação:
+Cardápio completo é exibido com imagem, descrição e preço de cada item.
+Cliente Robson pode filtrar pizzas por sabor, tamanho ou promoções.
+Sistema atualiza o cardápio automaticamente quando há alterações.
+Valor gerado: Experiência clara e informativa, aumentando a probabilidade de compra.
+
+História 3
+Persona: Cliente Wesley fazendo pedido
+História: Como cliente Wesley, quero acompanhar meu pedido em tempo real, para saber quando minha pizza estará entregue.
+Critérios de Aceitação:
+Cliente Wesley visualiza status do pedido: “Preparando”, “Saiu para entrega”, “Entregue”.
+Atualizações de status são automáticas e em tempo real.
+Cliente recebe notificação por aplicativo ou SMS quando o pedido muda de status.
+Valor gerado: Redução de ansiedade e aumento da satisfação do cliente.
+
+
