@@ -2,34 +2,63 @@
 
 I am a teacher = eu sou um professor
 
-you are my friend = você é meu amigo
+You are my friend = você é meu amigo
 
-he is in a happy day = ele está em um dia feliz
+He is in a happy day = ele está em um dia feliz
 
-she is very cool = ela é muito legal
+She is very cool = ela é muito legal
 
-it is a sunny day = é um dia ensolarado
+It is a sunny day = é um dia ensolarado
 
-we are all friends here = nós somos todos amigos aqui
+We are all friends here = nós somos todos amigos aqui
 
-they are a tall and proud people = eles são um povo alto e orgulhoso
+They are a tall and proud people = eles são um povo alto e orgulhoso
 
 # Frase no passado
 
-im was a teacher = eu era/fui um professor
+Im was a teacher = eu era/fui um professor
 
-you were my friend = você era/foi meu amigo
+You were my friend = você era/foi meu amigo
 
-he was in a happy day = ele estava em um dia feliz
+He was in a happy day = ele estava em um dia feliz
 
-she was very cool = ela era muito legal
+She was very cool = ela era muito legal
 
-it was a sunny day = fui/era um dia ensolarado
+It was a sunny day = fui/era um dia ensolarado
 
-we were all friend here = nós éramos/fomos todos amigos aqui
+We were all friend here = nós éramos/fomos todos amigos aqui
 
-they were a tall and proud people = eles eram/foram um povo alto e orgulhoso
+They were a tall and proud people = eles eram/foram um povo alto e orgulhoso
 
+# Frase no passado Negativa
+I was not a teacher = Eu não era professor 
+
+You were not my friend = Você não era meu amigo
+
+He was not in a happy day = Ele não estava em um dia feliz
+
+She was not very cool = Ela não era muito legal
+
+It was not a sunny day = Não era um dia ensolarado
+
+We were not all friends here = Nós não éramos todos amigos aqui
+
+They were not a tall and proud people = Eles não eram um povo alto e orgulhoso
+
+# Frase no passado Negativa contraída
+I wasn't a teacher = Eu não era professor 
+
+You weren't my friend = Você não era meu amigo
+
+He wasn't in a happy day = Ele não estava em um dia feliz
+
+She wasn't very cool = Ela não era muito legal
+
+It wasn't a sunny day = Não era um dia ensolarado
+
+We weren't all friends here = Não éramos todos amigos aqui
+
+They weren't a tall and proud people = Eles não eram um povo alto e orgulhoso
 
 # Treinamento com frase no presente
 
@@ -53,6 +82,29 @@ We are a happy family = nós somos uma família feliz
 
 They are students = eles são estudantes
 They are in the park = eles estão no parque
+
+# Frase no Futuro
+I will be a doctor = Eu serei um médico.
+I will be very happy = Eu estarei muito feliz.
+
+You will be very kind = Você será muito gentil.
+You will be at home = Você estará em casa.
+
+He will be my brother = Ele será meu irmão.
+He will be at school = Ele estará na escola.
+
+She will be my sister = Ela será minha irmã.
+She will be very smart = Ela será muito inteligente.
+
+It will be very cold = Estará muito frio.
+It will be a beautiful house = Será uma casa bonita.
+
+We will be ready = Nós estaremos prontos.
+We will be a happy family = Nós seremos uma família feliz.
+
+They will be students = Eles serão estudantes.
+They will be in the park = Eles estarão no parque.
+
 
 # Treinamento com frase no passado
 
