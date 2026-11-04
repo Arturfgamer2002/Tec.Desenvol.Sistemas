@@ -1,50 +1,88 @@
-import { Cachorro } from "./Cachorro";
+import { Navio } from "./Navio";
+import { Bergantim } from "./Bergantim";
+import { Chalupa } from "./Chalupa";
+import { Galeao } from "./Galeao";
 
-const cachorro1 = new Cachorro("Rex", 3, "Pastor Alemão");
-const cachorro2 = new Cachorro("Mel", 2, "Labrador");
-const cachorro3 = new Cachorro("Thor", 5, "Golden Retriever");
+const bergantim = new Bergantim("Vingança dos Mares");
+const chalupa = new Chalupa("Pérola Azul");
+const galeao = new Galeao("Rei dos Oceanos");
 
-console.log("=== Cachorro 1 ===");
-console.log("Nome:", cachorro1.getNome());
-console.log("Idade:", cachorro1.getIdade());
-console.log("Raça:", cachorro1.getRaca());
+console.log("\n===== INFORMAÇÕES DOS NAVIOS =====");
 
-console.log("\n=== Cachorro 2 ===");
-console.log("Nome:", cachorro2.getNome());
-console.log("Idade:", cachorro2.getIdade());
-console.log("Raça:", cachorro2.getRaca());
+bergantim.exibirInformacoes();
+chalupa.exibirInformacoes();
+galeao.exibirInformacoes();
 
-// Consultando os dados do cachorro 3
-console.log("\n=== Cachorro 3 ===");
-console.log("Nome:", cachorro3.getNome());
-console.log("Idade:", cachorro3.getIdade());
-console.log("Raça:", cachorro3.getRaca());
+console.log("\n===== NAVEGAÇÃO =====");
 
-cachorro1.setNome("Max");
-cachorro1.setIdade(4);
-cachorro1.setRaca("Border Collie");
+bergantim.navegar();
+chalupa.navegar();
+galeao.navegar();
 
-cachorro2.setIdade(3);
-cachorro2.setRaca("Beagle");
+console.log("\n===== ATAQUES =====");
 
-cachorro3.setNome("Bob");
+bergantim.atacar();
+chalupa.atacar();
+galeao.atacar();
 
-console.log("\n=== Dados Atualizados ===");
+console.log("\n===== RECEBENDO DANO =====");
 
-console.log(
-    cachorro1.getNome(),
-    cachorro1.getIdade(),
-    cachorro1.getRaca()
-);
+bergantim.receberDano(30);
+chalupa.receberDano(20);
+galeao.receberDano(80);
 
-console.log(
-    cachorro2.getNome(),
-    cachorro2.getIdade(),
-    cachorro2.getRaca()
-);
+console.log(`Vida do Bergantim: ${bergantim.vida}`);
+console.log(`Vida da Chalupa: ${chalupa.vida}`);
+console.log(`Vida do Galeão: ${galeao.vida}`);
 
-console.log(
-    cachorro3.getNome(),
-    cachorro3.getIdade(),
-    cachorro3.getRaca()
-);
+console.log("\n===== EXPLORANDO ILHA =====");
+
+chalupa.explorarIlha();
+
+console.log("\n===== REPARANDO GALEÃO =====");
+
+galeao.repararNavio();
+
+console.log(`Vida do Galeão após reparo: ${galeao.vida}`);
+
+console.log("\n===== POLIMORFISMO =====");
+
+const frota: Navio[] = [
+    bergantim,
+    chalupa,
+    galeao
+];
+
+for (const navio of frota) {
+    console.log("\n------------------------------");
+
+    navio.exibirInformacoes();
+    navio.navegar();
+    navio.atacar();
+}
+
+console.log("\n===== TESTANDO SITUAÇÕES INVÁLIDAS =====");
+
+try {
+    bergantim.receberDano(-10);
+} catch (erro) {
+    console.log("Erro:", (erro as Error).message);
+}
+
+try {
+    chalupa.vida = 100;
+} catch (erro) {
+    console.log("Erro:", (erro as Error).message);
+}
+
+try {
+    galeao.vida = -50;
+} catch (erro) {
+    console.log("Erro:", (erro as Error).message);
+}
+
+bergantim.receberDano(500);
+
+console.log(`Vida final do Bergantim: ${bergantim.vida}`);
+
+console.log("\n===== FIM DO PROGRAMA =====");
